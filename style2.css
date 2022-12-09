@@ -1,0 +1,53 @@
+img {
+    width: 20%;
+}
+
+h1,
+h2
+ {
+    font-family: 'G.B.BOOT', sans-serif;
+    color: black;
+}
+
+body {
+    background-color: rgb(225, 244, 225);
+    font-family: 'G.B.BOOT', sans-serif;
+    color: grey;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(216, 211, 211);
+}
+nav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav li a.active {
+
+    color: white;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.pok {
+    display:inline;
+    align-self: center;
+    
+}
+
+
+.evolutions {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: space-evenly;
+    align-content: center;
+}
